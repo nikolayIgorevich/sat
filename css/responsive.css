@@ -507,7 +507,11 @@
 }
 
 @media only screen and (max-width : 650px) {
-
+    .hero-title {
+        max-width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Extra Small Devices, Phones */
