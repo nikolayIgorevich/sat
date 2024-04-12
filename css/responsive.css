@@ -203,6 +203,37 @@
         line-height: 18px;
     }
 
+    .found-item-title {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .found-item-content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .fund-animation {
+        width: 400px;
+        height: 400px;
+    }
+
+    .found-form-wrap .form-input-wrap {
+        margin-bottom: 0;
+    }
+
+    .found-form {
+        max-width: 600px;
+    }
+
+    .found-form-wrap {
+        padding-bottom: 67px;
+    }
+
+    .page-section {
+        padding-bottom: 0;
+    }
+
 }
 
 
@@ -241,6 +272,31 @@
         max-width: 300px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .found-item-title {
+        max-width: 280px;
+    }
+
+    .found-item-content {
+        width: calc(100% - 340px);
+    }
+
+    .fund-animation {
+        display: none;
+    }
+
+    .found-form {
+        max-width: 100%;
+    }
+
+    .breadcrumb {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .page-title {
+        margin-bottom: 24px;
     }
 }
 
@@ -461,9 +517,8 @@
 
     .legal-menu {
         order: 1;
-        max-width: 218px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        margin-bottom: 32px;
     }
 
     .legal-menu-item {
@@ -477,10 +532,14 @@
 
     .legal-menu-list {
         flex-wrap: wrap;
+        max-width: 218px;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         padding-left: 0;
         justify-content: center;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
 
@@ -521,6 +580,37 @@
     .hero-animation {
         top: 40px;
         height: 100%;
+    }
+
+    .found-form-wrap .form-input-wrap {
+        width: 100%;
+    }
+
+    .found-item {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .found-item-title {
+        font-size: 16px;
+        line-height: 21px;
+        max-width: 100%;
+    }
+
+    .found-item-content {
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+    }
+
+    .found-list {
+        margin-bottom: 40px;
+    }
+
+    .page-title {
+        margin-bottom: 24px;
+        font-size: 20px;
+        line-height: 26px;
     }
 }
 

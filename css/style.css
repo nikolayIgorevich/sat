@@ -1172,7 +1172,7 @@ h2 {
     line-height: 26px;
     display: block;
     max-width: 435px;
-    width: 1005px;
+    width: 100%;
 }
 
 .found-item-content {
@@ -1187,9 +1187,11 @@ h2 {
 }
 
 .found-form-wrap {
+    position: relative;
     padding: 32px;
     background: linear-gradient(107.73deg, #1D233B 16.74%, #231D36 94.21%);
     border-radius: var(--radius);
+    overflow: hidden;
 }
 
 .found-form-title {
@@ -1218,6 +1220,14 @@ h2 {
 .found-form-wrap .form-button-wrap {
     width: 100%;
     margin-top: 14px;
+}
+
+.fund-animation {
+    position: absolute;
+    right: -170px;
+    bottom: -80px;
+    width: 478px;
+    height: 495px;
 }
 
 /* Found */

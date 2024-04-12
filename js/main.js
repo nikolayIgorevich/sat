@@ -74,9 +74,10 @@ window.onload = () => {
         links.forEach(function(link) {
             const sectionId = link.getAttribute('href').substring(1);
             const section = document.getElementById(sectionId);
-            const bounding = section.getBoundingClientRect();
+            const bounding = section ? section.getBoundingClientRect() : null;
 
             if (
+                bounding &&
                 bounding.top <= 150 &&
                 bounding.bottom >= 50
             ) {
