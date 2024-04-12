@@ -512,6 +512,16 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .hero {
+        padding-top: 140px;
+        min-height: 368px;
+    }
+
+    .hero-animation {
+        top: 100px;
+        height: 100%;
+    }
 }
 
 /* Extra Small Devices, Phones */
