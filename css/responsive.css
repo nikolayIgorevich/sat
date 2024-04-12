@@ -29,6 +29,10 @@
         max-width: 300px;
     }
 
+    .technology-animation-wrap {
+        top: -270px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -232,6 +236,42 @@
 
     .page-section {
         padding-bottom: 0;
+    }
+
+    .technology-animation-wrap {
+        position: static;
+    }
+
+    .technology-animation {
+        width: 280px;
+        transform: scale(2.5);
+        margin-top: 72px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .technology-image-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .technology-animation-wrap {
+        display: none;
+    }
+
+    .technology-list {
+        margin-top: 32px;
+        display: flex;
+        align-items: initial;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 56px;
+        min-height: initial;
+    }
+
+    .technology-item {
+        position: static;
     }
 
 }
@@ -558,6 +598,10 @@
         display: block;
     }
 
+    .technology-item {
+        width: calc(50% - 28px);
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -620,6 +664,15 @@
 
     .found-form-wrap {
         padding: 32px 16px 32px 16px;
+    }
+
+    .technology-item {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .technology-list {
+        gap: 24px;
     }
 }
 

@@ -1300,4 +1300,12 @@ h2 {
     /*height: 100%;*/
     /*transform: scale(2.1);*/
 }
+
+.technology-image-wrap {
+    display: none;
+}
+
+.technology-image-wrap img {
+    max-width: 100%;
+}
 /*Technology*/
