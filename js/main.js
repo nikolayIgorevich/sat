@@ -91,21 +91,6 @@ window.onload = () => {
 
     document.addEventListener('scroll', setActiveAnchor);
 
-    // popup
-
-    $('.open-popup-link').magnificPopup({
-        type:'inline',
-        showCloseBtn: false,
-        callbacks: {
-            open: function() {
-                $('.close-btn, .popup-close-button').on('click',function(event){
-                    event.preventDefault();
-                    $.magnificPopup.close();
-                });
-            }
-        }
-    });
-
     // go to top
 
     $(window).scroll(function() {
@@ -119,6 +104,21 @@ window.onload = () => {
     });
     $('.top').click(function () {
         $('html, body').stop().animate({scrollTop: 0}, 'slow', 'swing');
+    });
+
+    // popup
+
+    $('.open-popup-link').magnificPopup({
+        type:'inline',
+        showCloseBtn: false,
+        callbacks: {
+            open: function() {
+                $('.close-btn, .popup-close-button').on('click',function(event){
+                    event.preventDefault();
+                    $.magnificPopup.close();
+                });
+            }
+        }
     });
 
 
